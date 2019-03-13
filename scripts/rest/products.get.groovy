@@ -33,10 +33,10 @@ def itemsToProducts(items) {
     
     items.getChildItems().each { item ->
     	def product = [:]
-        product.name = item.queryValue("name").text
-        product.details = item.queryValue("detail").text
-        product.price = item.queryValue("price").text
-        product.image = item.queryValue("image").text
+        product.name = item.queryValue("name")
+        product.details = item.queryValue("detail")
+        product.price = item.queryValue("price")
+        product.image = item.queryValue("image")
         product.stars = 5 // we'll do this later
         product.totalReviews = 10 // we'll do this later
                 
