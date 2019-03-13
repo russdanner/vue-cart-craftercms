@@ -23,7 +23,7 @@ results = [ notebooks: [
  */
  
 results.notebooks = siteItemService.getSiteTree("/site/components/products/notebooks", 1)//itemsToProducts(siteItemService.getSiteTree("/site/components/products/notebooks", 1))
-results.smartphones = //itemsToProducts(siteItemService.getSiteTree("/site/components/products/smartphones", 1))
+//results.smartphones = itemsToProducts(siteItemService.getSiteTree("/site/components/products/smartphones", 1))
 
 return results
 
