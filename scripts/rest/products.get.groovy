@@ -1,5 +1,6 @@
 def results = [:]
 
+/*
 results = [ notebooks: [
       [
         name: '123 Notebook Lenovo Ideapad 320 Intel® Core i5-7200u 8GB',
@@ -19,5 +20,9 @@ results = [ notebooks: [
       ]
  	]
  ]
+ */
+ 
+results.notebooks = siteItemService.getSiteTree("/site/components/products/notebooks", 1)
+results.smartphones = siteItemService.getSiteTree("/site/components/products/smartphones", 1)
 
- return results
+return results
