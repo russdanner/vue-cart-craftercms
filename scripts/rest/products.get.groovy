@@ -10,6 +10,7 @@ def itemsToProducts(items) {
     
     items.getChildItems().each { item ->
     	def product = [:]
+        product.cmsId = item.storeUrl
         product.name = item.queryValue("name")
         product.details = item.queryValue("details")
         product.price = item.queryValue("price")
