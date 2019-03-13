@@ -22,7 +22,27 @@ results = [ notebooks: [
  ]
  */
  
-results.notebooks = siteItemService.getSiteTree("/site/components/products/notebooks", 1)
-results.smartphones = siteItemService.getSiteTree("/site/components/products/smartphones", 1)
+results.notebooks = itemsToProducts(siteItemService.getSiteTree("/site/components/products/notebooks", 1))
+results.smartphones = itemsToProducts(siteItemService.getSiteTree("/site/components/products/smartphones", 1))
 
 return results
+
+def itemsToProducts(items) {
+	def products = []
+    
+    items.each { item ->
+    	def product = [:]
+        product.name = item.queryValue("name").text
+        product.details = item.queryValue("detail").text
+        product.price = item.queryValue("price").text
+        product.image = item.queryValue("image").text
+        product.stars = 5 // we'll do this later
+        product.totalReviews = 10 // we'll do this later
+                
+        products.add(product)
+    }
+    
+    return products
+}
+
+
