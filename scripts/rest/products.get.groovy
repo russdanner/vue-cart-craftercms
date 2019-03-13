@@ -2,7 +2,7 @@ def results = [:]
 
 results = [ notebooks: [
       [
-        name: 'Notebook Lenovo Ideapad 320 Intel® Core i5-7200u 8GB',
+        name: '123 Notebook Lenovo Ideapad 320 Intel® Core i5-7200u 8GB',
         price: 2259,
         image: 'https://images-americanas.b2w.io/produtos/01/00/item/132381/3/132381386G1.png',
         stars: 5,
