@@ -1,6 +1,6 @@
 def results = [:]
 
-results = [
+results = [ notebooks: [
       [
         name: 'Notebook Lenovo Ideapad 320 Intel® Core i5-7200u 8GB',
         price: 2259,
@@ -17,6 +17,7 @@ results = [
         totalReviews: 20,
         details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
       ]
+ 	]
  ]
 
  return results
