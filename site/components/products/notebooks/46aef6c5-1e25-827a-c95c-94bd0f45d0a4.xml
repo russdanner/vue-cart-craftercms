@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>46ae</objectGroupId>
+	<objectId>46aef6c5-1e25-827a-c95c-94bd0f45d0a4</objectId>
+	<file-name>46aef6c5-1e25-827a-c95c-94bd0f45d0a4.xml</file-name>
+	<internal-name>Notebook Samsung Essentials E21 Intel Celeron Dual Core</internal-name>
+	<name>Notebook Samsung Essentials E21 Intel Celeron Dual Core</name>
+	<price>1490</price>
+	<details>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</details>
+	<image>/static-assets/images/products/132165801G1.jpg</image>
+	<createdDate>2019-03-13T04:11:55.586Z</createdDate>
+	<createdDate_dt>2019-03-13T04:11:55.586Z</createdDate_dt>
+	<lastModifiedDate>2019-03-13T04:11:55.586Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-03-13T04:11:55.586Z</lastModifiedDate_dt>
+</component>
