@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dd09</objectGroupId>
+	<objectId>dd097da5-c8f3-7d50-e677-757d8823924b</objectId>
+	<file-name>dd097da5-c8f3-7d50-e677-757d8823924b.xml</file-name>
+	<internal-name>Smartphone Moto G 5S Dual Chip Android 7.0</internal-name>
+	<name>Smartphone Moto G 5S Dual Chip Android 7.0</name>
+	<price>929</price>
+	<details>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s</details>
+	<image>/static-assets/images/products/132474081G1.png</image>
+	<createdDate>2019-03-13T04:14:29.470Z</createdDate>
+	<createdDate_dt>2019-03-13T04:14:29.470Z</createdDate_dt>
+	<lastModifiedDate>2019-03-13T04:14:29.470Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-03-13T04:14:29.470Z</lastModifiedDate_dt>
+</component>
