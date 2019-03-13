@@ -14,8 +14,8 @@ def itemsToProducts(items) {
         product.details = item.queryValue("details")
         product.price = item.queryValue("price")
         product.image = item.queryValue("image")
-        product.stars = 5 // we'll do this later
-        product.totalReviews = 10 // we'll do this later
+        product.stars = 5          // we'll do this later
+        product.totalReviews = 10  // we'll do this later
                 
         products.add(product)
     }
