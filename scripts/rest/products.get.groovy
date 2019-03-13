@@ -31,7 +31,7 @@ return results
 def itemsToProducts(items) {
 	def products = []
     
-    items.item.childItems.each { item ->
+    items.item.getChildItems().each { item ->
     	def product = [:]
         product.name = item.queryValue("name").text
         product.details = item.queryValue("detail").text
