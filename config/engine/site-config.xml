@@ -10,7 +10,7 @@
     </cors>
     
     <security>
-            <urlRestrictions>
+        <urlRestrictions>
             <restriction>
                 <url>/*</url>
                 <expression>hasRole('USER')</expression>
