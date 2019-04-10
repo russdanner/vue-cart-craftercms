@@ -6,23 +6,23 @@ descriptorVersion: 1
 # Describe the blueprint
 blueprint:
   id: org.craftercms.blueprint.empty
-  name: Empty Blueprint
+  name: Crafter CMS VueCart Headless GraphQL Blueprint
   tags: blueprint,website
   version:
     major: 1
     minor: 0
     patch: 0
   description: |
-    Simple empty blueprint
+    This blueprint can be used as a headless CMS to back the VueCart application, a  simple Vue based shopping cart.
   website:
-    name: Empty Blueprint
+    name: VueCart Blueprint
     url: https://craftercms.org
   media:
     screenshots:
       - screenshot:
-          title: Home Page
-          description: Screenshot of the homepage
-          url: /studio/static-assets/images/blueprints/empty/bp_empty.png
+          title: Product Listing
+          description: Screenshot Authoring over the product listing
+          url: /studio/static-assets/images/blueprints/empty/bp_vuecart.png
     developer:
       company:
         name: Crafter Software
