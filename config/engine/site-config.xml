@@ -16,11 +16,15 @@
                 <expression>hasRole('USER')</expression>
             </restriction>
         </urlRestrictions>
-    </security>
-           <login>
+        
+        
+                   <login>
             <formUrl>/signin</formUrl>
             <defaultSuccessUrl>/home</defaultSuccessUrl>
             <alwaysUseDefaultSuccessUrl>true</alwaysUseDefaultSuccessUrl>
             <failureUrl>/signin?error=loginFailure</failureUrl>
         </login>
+        
+    </security>
+
 </site>
