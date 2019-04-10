@@ -8,4 +8,13 @@
         <accessControlAllowHeaders>content-type</accessControlAllowHeaders>
         <accessControlAllowCredentials>true</accessControlAllowCredentials>
     </cors>
+    
+    <security>
+            <urlRestrictions>
+            <restriction>
+                <url>/*</url>
+                <expression>hasRole('USER')</expression>
+            </restriction>
+        </urlRestrictions>
+    </security>
 </site>
