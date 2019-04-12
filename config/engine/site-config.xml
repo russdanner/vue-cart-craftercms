@@ -9,7 +9,7 @@
         <accessControlAllowCredentials>true</accessControlAllowCredentials>
     </cors>
     
-    <security>
+    <!--security>
         <urlRestrictions>
             <restriction>
                 <url>/*</url>
@@ -25,6 +25,6 @@
             <failureUrl>/signin?error=loginFailure</failureUrl>
         </login>
         
-    </security>
+    </security-->
 
 </site>
