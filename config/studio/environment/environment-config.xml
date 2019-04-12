@@ -35,7 +35,7 @@
 
 -->
 <environment-config>
-    <preview-server-url>http://localhost:8000</preview-server-url>
+    <preview-server-url>http://localhost:8080</preview-server-url>
     <authoring-server-url>http://localhost:8080/studio</authoring-server-url>
     <live-server-url>http://localhost:9080/?crafterSite={siteName}</live-server-url>
     <graphql-server-url>http://localhost:8000</graphql-server-url>
