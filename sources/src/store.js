@@ -10,7 +10,7 @@ export default new Vuex.Store({
   state: {
     notebooks: [
       {
-        name: 'Notebook Lenovo Ideapad 320 Intel® Core i5-7200u 8GB',
+        name: 'LNotebook Lenovo Ideapad 320 Intel® Core i5-7200u 8GB',
         price: 2259,
         image: 'https://images-americanas.b2w.io/produtos/01/00/item/132381/3/132381386G1.png',
         stars: 5,
@@ -151,7 +151,7 @@ export default new Vuex.Store({
   actions: {
     loadProducts({ commit }) {
       axios
-        .post('/api/1/site/graphql?crafterSite=vue-cart', { query: "{ products: component_product { items{ localId, image, name, details, price } } }", variables: null } )
+        .post('/api/1/site/graphql?crafterSite=vue-cart', { query: '{ products: component_product { items{ localId, image, name, details, price } } }', variables: null } )
         .then(r => r.data)
         .then((products) => { commit('SET_PRODUCTS', products); });
     },
