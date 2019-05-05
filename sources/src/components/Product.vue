@@ -1,9 +1,9 @@
 <template>
-  <div class="product-box" :data-studio-component-path="currentProduct.cmsId"
+  <div class="product-box" :data-studio-component-path="currentProduct.localId"
         data-studio-component="/component/product"
         data-studio-ice=""
-        :data-studio-ice-path="currentProduct.cmsId">
-    <div class="product-image"  >
+        :data-studio-ice-path="currentProduct.localId">
+    <div class="product-image"  >[[[[]]]]
       <img :src="currentProduct.image" alt="">
       <stars :rate="rated(currentProduct.stars)" :totalReviews="currentProduct.totalReviews"/>
     </div>
