@@ -1,30 +1,25 @@
-<site>
-    <!-- CORS Properties -->
-    <cors>
-        <enable>true</enable>
-        <accessControlMaxAge>3600</accessControlMaxAge>
-        <accessControlAllowOrigin>*</accessControlAllowOrigin>
-        <accessControlAllowMethods>GET\, POST\, PUT\, OPTIONS</accessControlAllowMethods>
-        <accessControlAllowHeaders>content-type</accessControlAllowHeaders>
-        <accessControlAllowCredentials>true</accessControlAllowCredentials>
-    </cors>
-    
-    <!--security>
-        <urlRestrictions>
-            <restriction>
-                <url>/*</url>
-                <expression>hasRole('USER')</expression>
-            </restriction>
-        </urlRestrictions>
-        
-        
-                   <login>
-            <formUrl>/signin</formUrl>
-            <defaultSuccessUrl>/home</defaultSuccessUrl>
-            <alwaysUseDefaultSuccessUrl>true</alwaysUseDefaultSuccessUrl>
-            <failureUrl>/signin?error=loginFailure</failureUrl>
-        </login>
-        
-    </security-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (C) 2007-2019 Crafter Software Corporation. All Rights Reserved.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
 
+<!--
+    This file configures site properties used by Crafter Engine
+-->
+
+<site>
+    
 </site>

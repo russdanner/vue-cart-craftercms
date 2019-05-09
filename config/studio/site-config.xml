@@ -22,8 +22,8 @@
 
 -->
 <site-config>
-    <wem-project>vue-cart</wem-project>
-    <display-name>vue-cart</display-name>
+    <wem-project>{siteName}</wem-project>
+    <display-name>{siteName}</display-name>
     <default-timezone>EST5EDT</default-timezone>
     
     <published-repository>
@@ -102,7 +102,6 @@
     <contentMonitoring>
         <monitor>
             <name>Content Expiring Tomorrow</name>
-<<<<<<< HEAD
             <query>expired_dt:[now+1d/d TO now+2d/d]</query>
             <paths>
                 <path>
@@ -143,48 +142,6 @@
         <monitor>
             <name>Content Expiring In Two Months</name>
             <query>expired_dt:[now+60d/d TO now+62d/d]</query>
-=======
-            <query>expired_dt:[NOW/DAY+1DAY TO NOW/DAY+2DAY]</query>
-            <paths>
-                <path>
-                    <name>All Site</name>
-                    <pattern>/site/.*</pattern>
-                    <emailTemplate>contentExpiringSoon</emailTemplate>
-                    <emails>admin@example.com</emails>
-                    <locale>en</locale>
-                </path>
-            </paths>
-        </monitor>
-        <monitor>
-            <name>Content Expiring In One Week</name>
-            <query>expired_dt:[NOW/DAY+7DAYS TO NOW/DAY+8DAYS]</query>
-            <paths>
-                <path>
-                    <name>All Site</name>
-                    <pattern>/site/.*</pattern>
-                    <emailTemplate>contentExpiringSoon</emailTemplate>
-                    <emails>admin@example.com</emails>
-                    <locale>en</locale>
-                </path>
-            </paths>
-        </monitor>
-        <monitor>
-            <name>Content Expiring In One Month</name>
-            <query>expired_dt:[NOW/DAY+30DAYS TO NOW/DAY+32DAYS]</query>
-            <paths>
-                <path>
-                    <name>All Site</name>
-                    <pattern>/site/.*</pattern>
-                    <emailTemplate>contentExpiringSoon</emailTemplate>
-                    <emails>admin@example.com</emails>
-                    <locale>en</locale>
-                </path>
-            </paths>
-        </monitor>
-        <monitor>
-            <name>Content Expiring In Two Months</name>
-            <query>expired_dt:[NOW/DAY+60DAYS TO NOW/DAY+62DAYS]</query>
->>>>>>> branch 'master' of https://github.com/russdanner/vue-cart-craftercms.git
             <paths>
                 <path>
                     <name>All Site</name>
