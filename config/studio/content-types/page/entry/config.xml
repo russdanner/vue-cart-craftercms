@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<content-type name="/page/entry" is-wcm-type="true">
-	<label>Entry</label>
-	<form>/page/entry</form>
-	<form-path>simple</form-path>
-	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
-	<file-extension>xml</file-extension>
-	<content-as-folder>true</content-as-folder>
-	<previewable>true</previewable>
-	<noThumbnail>true</noThumbnail>
-	<image-thumbnail></image-thumbnail>
-=======
 <!--
   ~ Copyright (C) 2007-2019 Crafter Software Corporation. All Rights Reserved.
   ~
@@ -37,5 +25,4 @@
 	<previewable>true</previewable>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail>image.jpg</image-thumbnail>
->>>>>>> branch 'master' of https://github.com/russdanner/vue-cart-craftercms.git
 </content-type>
