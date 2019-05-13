@@ -115,7 +115,7 @@
                                         <module-icon-closed>
                                           <class>fa-shopping-bag</class>
                                         </module-icon-closed>                                        
-                                        <label>Products</label>
+                                        <label>Desktop and Mobile Products</label>
                                         <path>/site/components/products</path>
                                         <showRootItem>false</showRootItem>
                                         <onClick>preview</onClick>
