@@ -152,6 +152,12 @@
                   <stackedclass>fa-magic</stackedclass>
                </icon>
             </control>
+            <datasource>
+               <name>time</name>
+               <icon>
+                  <class>fa-clock-o</class>
+               </icon>
+            </datasource>
          </controls>
          <datasources>
             <datasource>
