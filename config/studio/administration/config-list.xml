@@ -36,7 +36,7 @@
     - samplePath: the path to a sample file to help the user update the file
 -->
 <config>
-   <version>5</version>
+   <version>6</version>
    <files>
       <file>
          <module>studio</module>
