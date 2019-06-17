@@ -143,15 +143,15 @@ export default new Vuex.Store({
       state.showPopupCart = !state.showPopupCart;
     },
     SET_PRODUCTS: (state, results) => {
-      state.notebooks = results.data.products.items;
-      state.smartphones = results.data.products.items;
+      state.notebooks = results.data.notebooks.items;
+      state.smartphones = results.data.smartphones.items;
     },
   },
 
   actions: {
     loadProducts({ commit }) {
       axios
-        .post('/api/1/site/graphql?crafterSite=vue-cart', { query: '{ products: component_product { items{ localId, image, name, details, price } } }', variables: null })
+        .post('/api/1/site/graphql?crafterSite=vue-cart', { query: '{ notebooks:component_product { items { localId(filter: {regex: ".*notebooks.*"}) image, name, details, price } } smartphones: component_product { items { localId(filter: {regex: ".*smartphones.*"}) image, name, details, price } } }', variables: null })
         .then(r => r.data)
         .then((products) => { commit('SET_PRODUCTS', products); });
     },
