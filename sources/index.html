@@ -10,11 +10,13 @@
     <!-- built files will be auto injected -->
 
 <script>
-  var crafterAuthoringSupport = document.createElement('script');
-      crafterAuthoringSupport.setAttribute('src','http://localhost:8080/studio/static-assets/libs/requirejs/require.js');
-      crafterAuthoringSupport.setAttribute('data-main', 'http://localhost:8080/studio/overlayhook?page=x&site=id&cs.js');
-      document.head.appendChild(crafterAuthoringSupport);
-
+  setTimeout(function(){ 
+    var crafterAuthoringSupport = document.createElement('script');
+        crafterAuthoringSupport.setAttribute('src','http://localhost:8080/studio/static-assets/libs/requirejs/require.js');
+        crafterAuthoringSupport.setAttribute('data-main', 'http://localhost:8080/studio/overlayhook?page=x&site=id&cs.js');
+        document.head.appendChild(crafterAuthoringSupport);
+ }, 3000);
+  
 </script>
     <script src="" ="></script>
   </body>
