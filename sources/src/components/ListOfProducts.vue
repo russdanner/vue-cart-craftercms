@@ -9,7 +9,7 @@
       <router-link to="/product-details">
         <h2 class="product-name"
             @click="addCurrentProduct(product)">
-          {{ product.name }}
+          {{ product.name }}  | {{product.c31Demo}}
         </h2>
       </router-link>
       <div class="product-price">

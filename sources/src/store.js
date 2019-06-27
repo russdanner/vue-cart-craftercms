@@ -151,7 +151,7 @@ export default new Vuex.Store({
   actions: {
     loadProducts({ commit }) {
       axios
-        .post('/api/1/site/graphql?crafterSite=vue-cart', { query: '{ notebooks:component_product { items { localId(filter: {regex: ".*notebooks.*"}) image, name, details, price } } smartphones: component_product { items { localId(filter: {regex: ".*smartphones.*"}) image, name, details, price } } }', variables: null })
+        .post('/api/1/site/graphql?crafterSite=vue-cart', { query: '{ notebooks:component_product { items { localId(filter: {regex: ".*notebooks.*"}) image, name, details, price c31Demo } } smartphones: component_product { items { localId(filter: {regex: ".*smartphones.*"}) image, name, details, price c31Demo  } } }', variables: null })
         .then(r => r.data)
         .then((products) => { commit('SET_PRODUCTS', products); });
     },
